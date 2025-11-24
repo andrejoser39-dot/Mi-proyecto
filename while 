@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOC7EcpcvNAfoHBsxESlhid",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/andrejoser39-dot/Mi-proyecto/blob/main/while%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Numero_gallinas = 0\n",
+        "Contador_gallinas = 0\n",
+        "#entrada de datos\n",
+        "#solicitamos el numero de gallinas (N)\n",
+        "while N <=0:\n",
+        "    N = int(input(\"ingrese el numero de gallinas en la granja (N): \"))\n",
+        "    if N <= 0:\n",
+        "      print(\"el numero de gallinas debe ser mayor a cero.\")\n",
+        "    except ValueError:\n",
+        "      print(\"por favor ingrese un numero ENTERO valido.\")\n",
+        "#--- BUCLE PARA CALCULAR LA CALIDAD DE CADA GALLINA ---\n",
+        " while Contador_gallinas < N:\n",
+        "    Contador_gallinas += 1\n",
+        "      print(f\"/n---datos para los datos #contador de gallina\")\n",
+        "#variables para los datos de las gallinas\n",
+        "peso = 0\n",
+        "atura = 0\n",
+        "num_huevos = 0\n",
+        "while peso <=0:\n",
+        "  peso = float(input(\"ingrese el peso de la gallina (kg)\"))\n",
+        "    if peso <= 0:\n",
+        "      print(\"el peso debe ser positivo\")\n",
+        "    except ValueError\n",
+        "      print(\"ingrese un numero valido\")\n",
+        "while altura <=0\n",
+        "  altura = float(input(\"ingrese la altura de la gallina (m)\"))\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "W5934rIfN7mM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cant-int(input(\"numero de gallinas\"))\n",
+        "cont=1\n",
+        "N = 0\n",
+        "suma = 0\n",
+        "while N <=0:\n",
+        "  N = int(input(\"ingrese el numero de gallinas en la granja (N)\"))\n",
+        "  if N <=0\n",
+        "  print(\"el numero de gallinas debe ser mayor a cero\")\n",
+        "#----bucle para calcular calidad----\n",
+        "while cont<=cant:\n",
+        "  num=int(input(\"ingrese el datos\"))\n",
+        "  if (num>0):\n"
+      ],
+      "metadata": {
+        "id": "m3RElivZYpMA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
